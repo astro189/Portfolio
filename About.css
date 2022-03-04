@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Varela+Round&display=swap');
+body{
+    background-color:black;
+}
+ h1{
+    color:aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.intro{
+    box-shadow: 7px 7px 5px 0 rgb(206, 205, 205);
+    background-color: #e94a0c;
+}
+.intro h2{
+    text-align: center;
+    color:aliceblue;
+    font-family:'Varela Round', sans-serif ;
+    font-size: 30px;
+}
+.intro li{
+    padding: 10px;
+    color:aliceblue;
+    font-size: 20px;
+    font-family:'Varela Round', sans-serif ;
+}
+.Hobbies{
+    box-shadow: 7px 7px 5px 0 rgb(206, 205, 205);
+    background-color: #e94a0c;
+}
+.Hobbies h2{
+    text-align: center;
+    color:aliceblue;
+    font-family:'Valera Round', sans-serif ;
+    font-size: 30px;
+}
+.Hobbies li{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color:aliceblue;
+    font-size: 20px;
+    font-family:'Valera Round', sans-serif ;
+}
+.Hobbies ul{
+    color:rgb(216, 217, 218);
+}
+nav{
+    background-color:#FF7B19;
+    width: 100%;
+    height: 50px;
+}
+nav ul{
+    float:left
+}
+nav ul li{
+    display:inline-block;
+    list-style-type: none;
+}
+nav ul li a{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding:110px;
+}
+nav ul li a:hover{
+    color:aliceblue;
+}
